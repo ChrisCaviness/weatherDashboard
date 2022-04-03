@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard </title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+  <div>
+    <div>
+      <h1 class="center header">Weather Dashboard</h1>
+      <h2>Search for a City:</h2>
+
+      <form class="display-column">
+        <input type="text" placeholder="Enter City Name">
+        <button class="button" id="search">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <div>
+    <div class="center display-column">
+      <h2 id="cityName">City Name</h2>
+      <p id="temp">Temp</p>
+      <p id="wind">Wind</p>
+      <p id="humidity">Humidity</p>
+      <p id="uv">UV Index</p>
+    </div>
+  </div>
+
+  <div>
+    <h2 class="center">5-Day Forecast</h2>
+    <div class="center">
+        <div class="card-display">
+          <section class="center card">
+            <h3 id="date1">Date</h6>
+            <p id="icon1">Icon</p>
+            <p id="temp1">Temp:</p>
+            <p id="wind1">Wind:</p>
+            <p id="humidity1">Humidity:</p>
+          </section>
+          <section class="center card">
+            <h3 id="date2">Date</h6>
+            <p id="icon2">Icon</p>
+            <p id="temp2">Temp:</p>
+            <p id="wind2">Wind:</p>
+            <p id="humidity2">Humidity:</p>
+          </section>
+          <section class="center card">
+            <h3 id="date3">Date</h6>
+            <p id="icon3">Icon</p>
+            <p id="temp3">Temp:</p>
+            <p id="wind3">Wind:</p>
+            <p id="humidity3">Humidity:</p>
+          </section>
+          <section class="center card">
+            <h3 id="date4">Date</h6>
+            <p id="icon4">Icon</p>
+            <p id="temp4">Temp:</p>
+            <p id="wind4">Wind:</p>
+            <p id="humidity4">Humidity:</p>
+          </section>
+          <section class="center card">
+            <h3 id="date5">Date</h6>
+            <p id="icon5">Icon</p>
+            <p id="temp5">Temp:</p>
+            <p id="wind5">Wind:</p>
+            <p id="humidity5">Humidity:</p>
+          </section>
+        </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

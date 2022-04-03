@@ -1,0 +1,42 @@
+.header {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+.card-display {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(52, 52, 73) ;
+    color: white;
+    max-width: 400px;
+    padding: 50px;
+    justify-content: space-evenly;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+.button {
+    font-size: large;
+}
